@@ -135,3 +135,52 @@ section {
     padding-left: .5em;
     padding-right: .5em;
 }
+
+@media screen and (min-width: 600px) {
+
+    h1{
+        font-size: 2em;
+        letter-spacing: .25em;
+    }
+
+    nav ul{
+        container:flex(row without wrap);
+        justify-content: space-around;
+        padding-right: 2em;
+    }
+
+    nav li{
+        width:12em;
+        border-bottom: none;
+    }
+
+    section{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    flow {
+        container:flex(row);
+    }
+
+    mobile-id{
+        display:none;
+    }
+
+    desktop-id{
+        display:inline;
+    }
+
+    homehero{
+        background-size: 100% 100%;
+    }
+
+    yurthero{
+        background-size: 100% 100%;
+    }
+
+    trailhero{
+        background-size: 100% 100%;
+    }
+
+}

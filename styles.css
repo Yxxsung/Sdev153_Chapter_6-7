@@ -184,3 +184,19 @@ section {
     }
 
 }
+
+
+@media screen and (min-width: 1024x) {
+    body{
+        background-image: linear-gradient(to bottom, #FFFFFF 20%, #90C7E3 60%, #FFFFFF 100%);
+    }
+
+    nav ul{
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    #wrapper{
+        margin: center, width=80%;
+    }
+}
